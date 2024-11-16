@@ -1,0 +1,65 @@
+.layout {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .summary {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .receita {
+    background-color: #e6ffed;
+    color: #10b981;
+  }
+  
+  .despesas {
+    background-color: #ffe6e6;
+    color: #ef4444;
+  }
+  
+  .lucro {
+    background-color: #e6f0ff;
+    color: #3b82f6;
+  }
+  
+  .charts {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .chart {
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+  }
+  
+  .simulated-chart {
+    height: 200px;
+    border: 2px dashed #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+  }
+  
